@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery: Работа с формами</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h1 id="header">Список фруктов</h1>
+        <p class="text">C jQuery:</p>
+        <div class="page">
+            <p class="show"></p>
+            <ul class="jQuery">
+                <li id="one" class="hot"><em>Зеленные</em> яблоки </li>
+                <li id="two" class="hot">Груша </li>
+                <li id="three" class="hot">Вишня </li>
+                <li id="four">Персик </li>
+            </ul>
+            <!-- блок для нового эелемента -->
+            <form id="newItemForm">
+                <input type="text" id="itemDescription" placeholder="название фрукта...">
+                <input type="submit" id="addButton" value="добавать">
+            </form>
+            <div class="newItemButton">
+                <button href="#" id="showForm">Новый эелмент</button>
+            </div>
+        </div>
+        <p class="text">Без jQuery:</p>
+        <div class="page">
+            <ul>
+                <li id="one"><em>Зеленные</em> яблоки</li>
+                <li id="two" >Груша</li>
+                <li id="three">Вишня</li>
+                <li>Персик</li>
+            </ul>
+        </div>
+    </header>
+    <script src="./js/jquery-3.7.0.min.js"></script>
+    <script src="./js/form.js"></script>
+</body>
+</html>

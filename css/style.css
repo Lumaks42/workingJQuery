@@ -1,0 +1,151 @@
+@font-face{
+    font-family: 'standart'; 
+    src: url('../standart.ttf'); 
+}
+
+*{
+    padding: 0;
+    margin: 0 auto;
+
+}
+
+body {
+    background-color: #333;
+    color: #ddd;
+    font-family: 'standart', Arial, sans-serif;
+    font-size: 16px;
+    margin: 0; 
+    padding: 0;
+}
+
+header{
+    max-width: 720px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1{
+    margin-left: 50px;
+}
+
+.text{
+    margin-left: 150px;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+ul{
+    padding: 20px 0;
+}
+
+li{
+    width: 300px;
+    list-style: none;
+    padding: 5px 15px;
+    margin: 0 5px 15px;
+    color: #000;
+    background-color: rgb(169, 71, 255);
+}
+
+.date, .order, a{
+    background-color: white;
+    color: #000;
+    margin-left: 5px;
+    padding: 0 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.elementImg{
+    position: absolute;
+    margin-left: 270px;
+}
+
+.notice, .colorBefore{
+    text-align: center;
+    width: 300px;
+    background-color: white;
+    color: #111;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.hot{
+    background-color: rgb(107, 243, 193);
+}
+
+.favorite{
+    background-image: url('../img/heart.png');
+    background-position: 285px, center;
+    background-repeat: no-repeat;
+}
+  
+.seasonal{
+    text-align: center;
+    background-color: rgb(130, 243, 107);
+    background-image: url('../img/calendar.png');
+    background-position: 20px, center;
+    background-repeat: no-repeat;
+}
+
+.complate{
+    background-image: url(../img/basket.png);
+    background-color: rgb(235, 159, 88);
+    background-position: 290px, center;
+    background-repeat: no-repeat;
+}
+
+.newItemButton{
+    width: 330px;
+}
+
+#showForm{
+    display: flex;
+    margin: 0 0 0 210px;
+    font-family: 'standart', Arial, sans-serif;
+    font-family: 'standart', Arial, sans-serif;
+    background-color: rgb(231, 114, 114);
+    border-radius:  15px;
+    border: none;
+    padding: 10px 20px;
+}
+
+#newItemForm{
+    display: flex;
+    justify-content: space-around;
+    width: 330px;
+}
+
+#addButton{
+    width: 120px;
+    padding: 5px 0;
+    font-family: 'standart', Arial, sans-serif;
+    background-color: rgb(231, 114, 114);
+    border-radius:  0 15px 15px 0;
+    border: none;
+}
+
+#itemDescription{
+    width: 190px;
+    padding: 10px;
+    border-radius:  15px 0 0 15px;
+    border: none;
+}
+
+#itemDescription:focus{
+    outline: none;
+}
+
+.itemNew{
+    background-color: rgb(72, 184, 228);
+    background-image: url(../img/newItem.png);
+    background-position: 290px, center;
+    background-repeat: no-repeat;
+}
